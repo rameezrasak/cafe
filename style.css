@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+}
+
+.banner-img{
+    width: 100%;
+    height: 700px;
+    position: relative;
+ }
+nav{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+.nav-logo img{
+    width: 90px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.list-items{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.links{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+.links:hover{
+    color: white;
+    background-color:red;
+}
+
+
+/*--------------BANNER-------------*/
+ 
+ .banner{
+    margin-bottom: 50px;
+ }
+
+ .banner-head h1{
+    margin-left: 250px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    top: 230px;
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    line-height: 1;
+    letter-spacing: 20px;
+ }
+ #coffe{
+    color: red;
+ }
+
+
+#banner-para{
+    top:550px ;
+    color:white;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 250px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+
+
+
+/*------------About our shop----------*/
+.about-shop{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.about-shop-content{
+    width: 45%;
+    padding: 50px;
+    margin: -20px 0 0 60px;
+    font-family: "Raleway", sans-serif;
+
+}
+.about-shop-content h1{
+
+    padding-bottom: 20px;
+    font-weight: 800;
+    color: rgb(65, 62, 62);
+    font-size: 45px;
+}
+.about-shop-content h3{
+   font-weight: 400;
+   font-size: 35px;
+}
+.about-shop-content p{
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+.about-btn{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 1px solid red;
+    padding: 15px 25px;
+    position: absolute;
+    margin-top: 40px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.about-btn:hover{
+    color: white;
+    background-color: red;
+}
+
+.about-shop-img{
+    width: 45%;
+    padding: 70px;
+    margin-top: -50px;
+}
+.about-shop-img img{
+    width: 600px;
+    height: 400px;
+}
+
+
+
+
+/*-------Products-----------*/
+#offer{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: rgb(65, 62, 62);
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+.box{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+   margin-bottom: 180px;
+}
+.box img{
+    width: 300px;
+}
+
+.box1,.box2,.box3,.box4{
+    background-color: #343a40;
+    height: 420px;
+    box-shadow: 10px 10px 10px #0000;
+}
+.box1{
+    margin-left: 70px;
+}
+.box4{
+    margin-right: 70px;
+}
+.box h1{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+.box h3{
+    font-family: "Raleway", sans-serif;  
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.box a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;  
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover{
+    background-color: red;
+    transition: .75s;
+}
+
+
+
+/*------------BLOG-------------*/
+
+#blog-head{
+    font-family: "Raleway", sans-serif;
+    color: rgb(65, 62, 62);
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 210px;
+}
+
+.blog{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    height: 574px;
+}
+.blog1{
+    margin-right: 15px;
+}
+.blog2{
+    margin-left: 15px;
+}
+.blog1,.blog2{
+  width: 530px;
+  box-shadow: 5px 2px 20px black ;
+  position: relative;
+}
+
+.blog1 img,.blog2 img{
+    width: 530px;
+}
+
+.blog1 h3,.blog2 h3{
+    font-family: "Raleway", sans-serif;  
+    color: rgb(41, 41, 41);
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 20px;
+}
+.blog1 p, .blog2 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 17px;
+    padding: 20px;
+   font-weight: 400;
+}
+.blog1 a,.blog2 a{
+    text-decoration: none;
+    color:rgb(247, 7, 7);
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 1px solid rgb(248, 6, 6);
+    padding: 10px 30px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 180px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;  
+}
+.blog1 a:hover,.blog2 a:hover{
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    transition-duration: 2s;
+}
+
+/*----------------GET IN TOUCH*------------*/
+
+
+#get-head{
+    font-family: "Raleway", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 180px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.get{
+    text-align: center;
+}
+#form-text1,#form-text2,#form-text3,#form-text4{
+    width: 40%;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    padding: 11px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    border: 0px;
+    background-color: #efefef;
+    border-radius: 40px;
+}
+#get-a{
+      text-decoration: none;
+    color:rgb(253, 253, 253);
+    background-color: red;
+    font-size: 16px;
+    padding: 11px 60px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 680px;
+    font-weight: 500;
+    border-radius: 40px;
+    font-family: "Raleway", sans-serif; 
+}
+#get-a:hover{
+    background-color:#efefef;
+    color:rgb(3, 0, 0);
+    transition: 1s;
+}
+
+
+/*---------Map------------*/
+.map{
+    margin-top:140px;
+    width: 100%;
+}
+
+/*---------Footer------------*/
+.footer{
+    background-color: #1d1d1d;
+    height: 300px;
+    position: relative;
+    display:block;
+    justify-content: cente;
+}
+
+
+.icons{
+   text-align: center;
+   padding-top: 80px;
+   padding-bottom: 60px;
+}
+    .icons span{
+     padding: 10px 15px;
+    background-color: #fff;
+    color: #1d1d1d;
+    border-radius: 100%;
+    font-size: 19px;
+    width: 44px;
+    text-align: center;
+    margin: 5px;
+}
+
+.icons span:hover{
+    color: red;
+    transition: .90s;
+}
+
+/*-------Contact---------*/
+.contact{
+    color: #ffffff;
+    padding: 0px 10px 5px 10px;
+    display: inline-flex;
+}
+
+.contact li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    justify-content:space-evenly
+   
+}
+.contact li a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.contact #mob{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.contact #em{
+    font-family: "Raleway", sans-serif; 
+    font-size: 20px;
+}
+.contact li a:hover{
+    color: red;
+    transition: .90s;
+}
+
+.foot-mail{
+    display:flex;
+    justify-content: center;
+}
+
+.foot-mail #text-mail{
+    margin-top: 30px;
+    padding:10px 20px;
+    color: black;
+    width: 300px;
+ 
+}
+.foot-mail #text-mail textarea{
+   
+    text-align: center;
+}
+.foot-mail #text-mail::placeholder{
+    color: black;
+    font-family: "Raleway", sans-serif; 
+    font-size: 18px;
+    
+}
+
+
+
+
+/*---------Last-----------*/
+
+
+.last{
+    background-color:red;
+    height: 60px;
+}
+
+.last h3{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-family: "Raleway", sans-serif; 
+    font-weight: 400;
+
+}
+
+
+
